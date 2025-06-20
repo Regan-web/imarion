@@ -1,0 +1,762 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+i{
+    color: white;
+    margin-left: 5px;
+}
+body{
+    background-color: black;
+    color:white;
+    font-size: small;
+    font-family: Arial; 
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.header1{
+  display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color: black;
+    width: 100%;
+    margin-top: 10px;
+    
+
+}
+
+li{
+    list-style: none;
+}
+.top-2{
+    margin-right: 50px;
+    
+}
+
+.top-4{
+    letter-spacing: 1px;
+    color:#a9a9a9;
+    font-size: smaller;   
+}
+.top-3:hover{
+    color: white;   
+}
+.top-4:hover{
+    color: white;    
+}
+.top-3{
+    margin: 10px;
+    color:#a9a9a9;
+    font-size: smaller;
+    letter-spacing: 1px;
+    
+    
+}
+.top-3>.fa-greater-than{
+    transform: rotate(90deg) scale(0.8);
+    margin-left: 3px;
+    box-sizing: border-box;
+    margin-top: 4px;
+    
+}
+.fa-magnifying-glass{
+    transform: rotate(90deg) scale(0.85);   
+    color:#a9a9a9;
+    margin-left: -2px;    
+}
+
+.fa-magnifying-glass:hover{
+    color:white;
+}
+
+.title{
+    font-family:Serif;
+    font-size: 24px;  
+}
+
+.header2{
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    align-items: center;
+    color: white;  
+    width: 100%;
+    background-color: black;
+    margin-bottom: 10px;
+    margin-top: -12.58px;    
+}
+.fa-2{
+    font-size: 13.5px;
+    margin-inline: 35px;
+    
+}
+
+.header2>li:hover{
+    filter: brightness(50%);
+}
+#home{
+    
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
+ url(Gen4%20rolls%20royce%20phantom,bentley,%20mercedes%20benz%20maybach%20s680e,%20range%20rover%20sport%20,%20g-wa%20a-2,%205023323.png);
+    background-size: cover;
+    height: 100vh;
+    
+    background-position: center;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: white;
+    overflow: hidden;
+    
+
+}
+.hero{
+    
+    position: absolute;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+.hero1{
+    font-family:Serif;
+    font-size: 45px;
+    letter-spacing: -1px;
+    margin-bottom: 15px;
+}
+.hero2{
+    margin-bottom: 15px;
+    font-size: 13.5px;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+.herob{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+}
+.herob>i{
+    color: black;
+    transform: rotate(-90deg);
+}
+.herob:hover{
+    background-color: #006bff;
+}
+header{
+  width: 100%;
+    position: fixed;
+    background-color: black;
+    
+}
+#collection{
+    background-color: black;
+    
+    font-size: larger;
+    font-weight: normal;
+    
+}
+
+.c-title{
+    font-size: 35px;
+    text-align: center;
+    text-decoration:1.2px underline;
+    padding-top: 30px;
+    font-family: auto;
+    font-weight: normal;
+    
+    
+}
+#collection>div{
+    box-sizing: border-box;
+}
+.rolls-royce{
+    margin-top: 100px;
+    margin-left: 70px;
+    
+}
+.car-name{
+    font-size: 30px;
+    font-family:poppins;
+    font-weight: normal;
+}
+.rolls-royce>img{
+    object-fit: cover;
+    width: 550px;
+    height: 309px;
+    margin-bottom: 40px;
+}
+.name1{
+    margin-bottom: 30px;
+}
+ 
+.mercedes{
+    margin-left: 950px;
+    margin-top: -200px;
+}
+.mercedes>img{
+    width: 400px;
+    height: 225px;
+    object-fit: cover;  
+}
+
+.bentley{
+    margin-left: 150px;
+    
+
+}
+.bentley>img{
+    object-fit: cover;
+    width: 450px;
+    height: 253px;
+    background-color: black;
+}
+.Porsche{
+    margin-left: 850px;
+    margin-top: -200px;
+}
+.Porsche>img{
+    object-fit: cover;
+    width: 450px;
+    height: 253px;
+}
+.Range{
+    margin-left: 70px;
+    width: 50%;
+    margin-top: 30px;
+    
+}
+.Range>img{
+    width: 500px;
+    height: 281px;
+    object-fit: cover;
+    
+}
+
+#collection>button{
+    margin-left: 900px;
+    margin-bottom: 350px;
+     background-color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    z-index: 10;
+    position: relative;
+    
+}
+.c-button>.fa-arrow-down{
+     color: black;
+    transform: rotate(-90deg);
+}
+
+.c-button:hover{
+    background-color: #006bff; 
+    
+}
+
+#import-services{
+    width: 100;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#import-services>img{
+    width: 600px;
+    height: 337.5px;
+    object-fit: cover;
+    margin-right: 100px;
+}
+.imports{
+    margin-left: 70px;
+}
+.imports>h1{
+    font-size: 58px;
+    font-family: auto;
+    font-weight: 400;
+    margin-bottom: 180px;
+}
+.imports>p:last-of-type{
+    font-size: 14px;
+    font-family: Arial;
+    letter-spacing: 1px;
+}
+
+.imports>button{
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 30px;
+    
+}
+.import-b>.fa-arrow-down{
+     color: black;
+    transform: rotate(-90deg);
+}
+.import-b:hover{
+    background-color: #006bff;  
+}
+
+#contacts{
+    width: 100%;
+    height: 100vh;
+    font-family: auto;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+#contacts>div{
+    background-color: white;
+    width: 100%;
+    height: 50vh;
+    transform: scale(1.02);
+}
+.conts{
+    text-align: center;
+    font-size: 58px;
+    font-weight: normal;
+}
+.contacts-box>ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+     
+}
+.fa-brands{
+    color: black;
+    font-size: 60px;
+}
+  
+#services{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#services>div:first-of-type{
+    display: flex;
+    flex-direction: column;
+    font-size: 58px;
+    font-family: auto;
+    margin-left: 100px;
+    
+}
+.CTA:first-of-type{
+    color:#615b5b;
+    
+}
+.CTA:first-of-type:hover{
+    color: white;
+}
+.CTA:last-child:hover{
+    color:#615b5b;
+    
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+    margin-right: 850px;
+    font-size: larger;
+    color:#615b5b;  
+    margin-top: 30px;
+}
+
+.product1{
+    margin-bottom: 20px;
+}
+.product1:hover{
+    color: white;
+    cursor:default;
+}
+
+#more-info{
+   display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    
+    
+}
+
+.info-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    
+    
+}
+.info1{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.info{
+    font-family: auto;
+      font-size: 43px;
+    font-weight: normal;
+}
+.info1>span:first-of-type{
+    margin-bottom: 4px;
+}
+.info2{
+    color:#615b5b;  
+    margin-bottom: 4px;
+    
+}
+#more-info>.info1:nth-of-type(2){
+    margin-bottom: 14px;
+}
+.info2:hover{
+    color: white;
+    cursor:pointer;
+}
+
+.last-page{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.last-page>ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;  
+    margin-top: 50px;
+}
+
+.last-links{
+    color:#615b5b;  
+    font-weight: bold;
+    font-family: arial;
+    
+}
+
+.last-links:hover{
+    color: white;
+}
+
+hr{
+    width: 85%;
+    background:#615b5b; 
+    height: 0.001px;
+    margin-inline: auto;
+}
+
+.last-page>p:first-of-type{
+    font-size: 24px;
+    font-family: auto;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    
+}
+.last-arrow{
+    transform: rotate(180deg) scale(1.5);
+    
+    
+    
+}
+.last-arrow:hover{
+    color:#615b5b; 
+}
+.last-page>p:last-of-type{
+    font-size: large;
+    color:#615b5b; 
+    margin-bottom: -30px;
+    
+}
+
+
+html, body {
+  overflow-x: hidden;
+}
+ 
+
+
+/* 💻 Large desktops and wide screens (1200px and above) */
+@media (min-width: 1200px) {
+  
+}
+
+/* 🖥 Standard desktops and laptops (1025px–1199px) */
+
+
+
+
+/* 📱 Mobile phones (481px–768px) */
+@media (max-width: 768px){
+    body{
+        font-size:12px;
+    }
+    
+    .title{
+        font-size: 17px;
+    }
+    
+    
+    .top-3:first-of-type{
+        margin-right:-10px;
+        box-sizing: border-box;
+        
+    }
+    
+    .tops:last-of-type{
+        margin-right: -6px;
+    }
+    .header2{
+        display: none;
+        
+    }
+    
+    #home{
+        
+        height: 70vh;    
+    }
+    
+    .hero{
+        
+        margin-top: -100px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        
+    }
+    
+    .hero1{
+        font-size: 30px;
+    }
+    
+    .hero2{
+        font-size: small;
+        
+    }
+    
+    .hero>button{
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+    }
+    
+    #collection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        
+        
+    }
+    
+    .c-title{
+        font-size: 25px;
+        margin-bottom: 35px;
+    }
+    
+    .car-name{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
+    #collection>div{
+        margin: 0;
+    }
+    .Range{
+        margin-left: 10px;
+        width: 90%;
+    }
+    .Range>img{
+        margin-left: 25px;
+    }
+    .Range>p{
+        margin-left: 25px;
+        
+    }
+    
+    .c-button{
+        margin-right: 900px;
+    }
+    
+    .mercedes>img{
+        height: 177px;
+        width: 284px;
+    }
+    
+    
+    
+    .rolls-royce>img,.bentley>img,.Porsche>img,.Range>img{
+         width: 330px;
+        height: 185px;
+    }
+    
+    #collection>div{
+        margin-bottom: 40px;
+    }
+    #import-services{
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        
+    }
+    .imports{
+        margin-left: 5px;
+    }
+    .imports>p{
+        font-size:13px;
+        
+    }
+    .imports>p:last-of-type{
+        font-size: 13px;
+        margin-top: -120px;
+        margin-bottom: 15px;
+    }
+    
+    .imports>h1{
+        font-size: 30px;
+        margin-top: 10px;
+    
+    }
+    
+    .imports>button{
+        width: 100px;
+        height: 25px;
+        font-size: 10px;
+    }
+    
+    #import-services>img{
+        width:240px;
+        height: 135px;
+        margin-right: 1px;
+    }
+    
+    #contacts{
+        height: 30vh;
+        
+    }
+    
+    
+    .conts{
+        font-size: 30px;
+        margin-top: 40px;
+    }
+    
+    .icons>i{
+        font-size:40px; 
+    }
+    
+    #contacts{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    #services>div:first-of-type{
+        margin-left: 10px;
+        font-size: 45px;
+        
+    }
+    
+    .products{
+        margin-right: 9px;
+    }
+    
+    .info-box{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .info1{
+        margin-right: 4px;
+        font-size: 11px;
+    }
+    
+    .info1:first-of-type{
+        margin-top: 14px;
+    }
+    
+    .info1:last-of-type{
+        margin-top: 10px;
+        margin-left:180px;
+    }
+    
+    .info{
+        font-size: 30px;
+        margin-left: 5px;
+    }
+    
+    .last-page>ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center; 
+        row-gap: 20px;
+        margin-bottom: 45px;
+    }
+    
+    .last-links{
+        font-size: 10px;
+        
+    }
+    
+   
+    .last-page>a,.last-page>p:last-of-type{
+        margin-top: -20px;
+        
+    }
+    .last-page>a{
+        margin-bottom: 25px;
+    }
+    
+    
+    
+    
+   
+    
+    
+    
+    
+} 
+  
+
+/* 📱 Extra small phones (480px and below) */
+@media (max-width: 480px) {
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
