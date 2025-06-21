@@ -499,8 +499,8 @@ html, body {
 
 
 
-/* 📱 Mobile phones (481px–768px) */
-@media (max-width: 768px){
+/* 📱 Mobile phones (480px) */
+@media (max-width: 480px){
     body{
         font-size:12px;
     }
@@ -739,8 +739,7 @@ html, body {
 } 
   
 
-/* 📱 Extra small phones (480px and below) */
-@media (max-width: 480px) {
+
  
 
 
