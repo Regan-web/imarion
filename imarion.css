@@ -146,10 +146,11 @@ li{
     font-weight: 200;
 }
 .herob{
-    width: 150px;
-    height: 40px;
-    border-radius: 20px;
+     width: 200px;
+    height: 50px;
+    border-radius: 50px;
     border: none;
+    margin-top: 20px;
 }
 .herob>i{
     color: black;
