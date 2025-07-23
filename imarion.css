@@ -3,15 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-i{
-    color: white;
-    margin-left: 5px;
-}
+
 body{
     background-color: black;
     color:white;
     font-size: small;
-    font-family: Arial; 
+    font-family: 'Inter',sans-serif; 
+}
+i{
+    color: white;
+    margin-left: 5px;
 }
 a{
     color: white;
@@ -30,6 +31,9 @@ a{
 
 li{
     list-style: none;
+}
+.top-1{
+    margin-left: 20px;
 }
 .top-2{
     margin-right: 50px;
@@ -74,7 +78,13 @@ li{
 
 .title{
     font-family:Serif;
-    font-size: 24px;  
+   font-size: 2.5rem;
+  font-weight: 700;
+  color: 	#FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-top: 15px;
+    
 }
 
 .header2{
@@ -91,6 +101,8 @@ li{
 .fa-2{
     font-size: 13.5px;
     margin-inline: 35px;
+      letter-spacing: 0.5px;
+
     
 }
 
