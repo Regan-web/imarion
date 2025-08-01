@@ -21,7 +21,7 @@ a{
 .header1{
   display: flex;
     justify-content: space-between;
-    height: 60px;
+    height: 50px;
     background-color: black;
     width: 100%;
     margin-top: 10px;
@@ -78,23 +78,25 @@ li{
 
 .title{
     font-family:Serif;
-   font-size: 2.5rem;
-  font-weight: 700;
+   font-size: 30px;
+  font-weight: normal;
   color: 	#FFFFFF;
   text-transform: uppercase;
   letter-spacing: 4px;
   margin-top: 15px;
+  transform :scaleY(1.04);
+  
     
 }
 
 .header2{
     display: flex;
     justify-content: center;
-    height: 70px;
+    height: 55px;
     align-items: center;
     color: white;  
     width: 100%;
-    background-color: black;
+    background-color: transparent;
     margin-bottom: 10px;
     margin-top: -12.58px;    
 }
