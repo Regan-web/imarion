@@ -77,14 +77,14 @@ li{
 }
 
 .title{
-    font-family:Serif;
-   font-size: 30px;
-  font-weight: normal;
-  color: 	#FFFFFF;
+    font-family:Arial;
+   font-size: 35px;
+  font-weight: 400;
+  color: 	#F7f7f7;
   text-transform: uppercase;
   letter-spacing: 4px;
-  margin-top: 15px;
-  transform :scaleY(1.04);
+  margin-top: 3px;
+  transform :scaleY(1.1);
   
     
 }
