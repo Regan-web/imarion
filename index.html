@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="imarion.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Imarion</title>
@@ -12,13 +13,14 @@
 <body>
     
     
-    <header>
+    <header data-aos="fade-down">
         <ul class="header1">
             <li class="tops top-1">
                 <a class="top-4" href="#">Privacy/</a><a class="top-4" href="#"> Provider</a>
             </li>
             
-            <li class="title">IMARION</li>
+            <li class="title" data-aos="fade-down"
+     data-aos-anchor-placement="center-bottom">IMARION</li>
             <li class="tops top-2">
                 <a class="top-3" href="#">Search<i class="fa-solid fa-magnifying-glass"></i></a>
                 <a class="top-3" href="#">Login</a> 
@@ -37,13 +39,13 @@
     <section id="home">
     
     <div class="hero">
-        <span class="hero1">CRAFTED FOR KINGS</span>
-        <span class="hero2">Configure Now</span>
-        <button class="herob">Discover More<i class="fa-solid fa-arrow-down"></i></button>
+        <span class="hero1" data-aos="fade-right">CRAFTED FOR KINGS</span>
+        
+        <button class="herob" data-aos="fade-right">Discover More<i class="fa-solid fa-arrow-down"></i></button>
     </div>
     </section>
     <section id="collection">
-        <p class="c-title">OUR COLLECTIONS</p>
+        
         <div class="rolls-royce">
             <p class="car-name name1">Rolls Royce Phatom Series</p>
             <img src="pexels-abdul-rahman-2669315-5046305.jpg" alt="" class="img1">
@@ -147,5 +149,9 @@
         <a href="#home"><i class="fa-solid fa-arrow-down last-arrow"></i></a>
         <p>Top</p>
     </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
